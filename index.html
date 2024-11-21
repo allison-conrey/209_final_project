@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Environmental Impact of Food Production</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Environmental Impact of Food Production</h1>
+    <p>Explore the relationship between food production and greenhouse gas emissions.</p>
+  </header>
+  
+  <main>
+    <!-- Section 1: What Are Greenhouse Gases? -->
+    <section id="greenhouse-gases">
+        <h2>What Are Greenhouse Gases?</h2>
+        <div class="visual">
+          <img src="images/1200px-Greenhouse-effect-t2.svg.png" alt="Illustration of the greenhouse effect" width="600">
+        </div>
+        <p>Greenhouse gases (GHGs) trap heat in the atmosphere. Common GHGs include carbon dioxide (CO₂), methane (CH₄), and nitrous oxide (N₂O).</p>
+      </section>     
+
+    <!-- Section 2: The Connection Between GHGs and Climate Change -->
+    <section id="ghg-climate-change">
+      <h2>The Connection Between GHGs and Climate Change</h2>
+      <div id="co2-temperature-chart"></div>
+      <p>Human activities have significantly increased GHG levels, causing global warming and extreme weather events.</p>
+    </section>
+
+    <!-- Section 3: Why Food Production Matters -->
+    <section id="food-production">
+      <h2>Why Food Production Matters</h2>
+      <div id="emissions-pie-chart"></div>
+      <p>Food production contributes up to 30% of global GHG emissions, with significant variations across food types.</p>
+    </section>
+
+    <!-- Section 4: What This Project Aims to Explore -->
+    <section id="project-aims">
+      <h2>What This Project Aims to Explore</h2>
+      <div id="teaser-bar-chart"></div>
+      <p>Explore how different foods impact the environment and experiment with creating sustainable diets.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Data Source: <a href="https://www.fao.org" target="_blank">FAO</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
